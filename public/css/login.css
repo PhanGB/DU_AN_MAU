@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgb(94, 197, 15); */
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* --------------------------------------------------- */
+
+.form-login{
+    margin-left: 40%;
+    margin-top: 8%;
+    width: 400px;
+    text-align: center
+}
+.form-login h1{
+    font-size: 50px;
+}
+.form-login label{
+    margin-left: -350px;
+}
+.form-login .inp-login{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(132, 121, 121);
+    font-size: 20px;
+}
+.form-login .inp-login:focus{
+    outline: none;
+}
+.form-login .inp-login[type="email"]{
+    padding-left: 20px;
+
+}
+.form-login .inp-login[type="password"]{
+    padding-left: 20px;
+
+}
+
+.form-login .submit-log{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(243, 46, 46);
+    color: white;
+}
+#errText{
+    position: absolute;
+    left: 600px;
+    top: 150px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    width: 450px;
+    /* background-color: aqua; */
+}
+
+
+
+
+
+
+
+/* ----------------------------------------------- */
+/* --------GẠCH ĐỎ------- */
+.g-red {
+    background-color: rgb(217, 49, 49);
+    margin-top: 15%;
+    height: 50px;
+}

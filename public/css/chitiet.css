@@ -1,0 +1,176 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgb(94, 197, 15); */
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* --------------------------------------------------- */
+.box-ct{
+    margin-top: 30px;
+}
+.box-ct .img-ct{
+    margin-left: 100px;
+    float: left;
+    margin-right: 50px;
+}
+.box-ct .img-ct .hinh-chinh{
+    margin-left: 70px;
+    width: 500px;
+    /* border: 1px solid black; */
+}
+.box-ct .hinh-con{
+    /* border: 1px solid black; */
+    width: 150px;
+    margin: 10px;
+}.box-ct .hinh-con:hover{
+    /* border: 1px solid red; */
+    box-shadow: 0px 5px 10px red;
+    border-radius: 10px;
+}
+.in4-ct{
+    /* background-color: aqua; */
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+.in4-ct .price{
+    margin: 20px;
+    font-size: 20px;
+}
+.in4-ct .name-sp{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 50px;
+}
+.in4-ct .price{
+    color: rgb(235, 27, 27);
+    font-weight: bold;
+}
+.img-ct .saleoff{
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 1000px;
+    border: 1px solid red;
+    border-radius: 15px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.in4-ct .price span{
+    color: red;
+}
+.in4-ct .material-symbols-outlined{
+    margin-left: 30px;
+}
+.so-luong{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 430px;
+}
+.so-luong label{
+    font-size: 30px;
+    font-weight: bold;
+}
+.so-luong input{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(99, 95, 95);
+
+}
+.so-luong input[type="number"]{
+    padding-left: 20px;
+    font-size: 20px;
+}
+/* -----------BẢNG THÔNG TIN SẢN PHẨM---------- */
+.in4-sp {
+    text-align: center;
+    /* background-color: aqua; */
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 1000px;
+    top: 750px;
+}
+.in4-sp p{
+    font-weight: bold;
+}
+.in4-sp table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.in4-sp table tr{
+    height: 30px;
+}
+.in4-sp table, tr, td{
+    border: 1px solid rgb(180, 166, 166);
+}
+
+#themTC{
+    position: absolute;
+    top: 670px;
+    right: 150px;
+}
+.themTC{
+    /* border: 1px solid black; */
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+}
+.inp-sl:hover{
+    box-shadow: 0px 5px 10px black;
+}
+.button-themGH{
+    width: 200px;
+    height: 45px;
+    margin-top: 44px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button-themGH:hover{
+    box-shadow: 5px 5px 10px rgb(60, 58, 58);
+    background-color: whitesmoke;
+    color: red;
+    border: 1px solid red;
+}
+.mua-ngay{
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    left: 450px;
+    top: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.mua-ngay:hover{
+    box-shadow: 5px 5px 10px rgb(60, 58, 58);
+    background-color: whitesmoke;
+    color: red;
+    border: 1px solid red;
+}
+
+
+
+
+/* ----------------------------------------------- */

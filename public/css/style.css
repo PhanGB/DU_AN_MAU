@@ -1,0 +1,678 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgb(94, 197, 15); */
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+header {
+    background-color: rgb(267, 16, 45);
+    height: 120px;
+}
+
+/* logo */
+.logo img {
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 5px;
+    float: left;
+}
+
+/*nút tìm kiếm*/
+.search {
+    float: left;
+    margin-right: 30px;
+}
+
+.search input {
+    width: 700px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 25px;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border: 0px solid white;
+}
+
+.search input[type="text"] {
+    padding-left: 50px;
+}
+.search input:focus {
+    outline: none;
+}
+
+.search img {
+    position: absolute;
+    width: 25px;
+    z-index: 999;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+/*nút theo dõi đơn hàng */
+.follow-order {
+    background-color: rgba(0, 255, 255, 0);
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -15px;
+    border: 0px solid rgba(255, 0, 0, 0);
+}
+
+.follow-order:hover {
+    border: 2px solid rgb(0, 255, 255);
+    border-radius: 10px;
+}
+
+.follow-order img {
+    margin-right: -10px;
+    width: 25px;
+    float: left;
+}
+
+.follow-order>.text {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 7px;
+    color: white;
+}
+
+/*nút đăng nhập*/
+.login {
+    position: absolute;
+    color: black;
+    margin-left: 1270px;
+    margin-top: 28px;
+}
+
+.login:hover {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 27px;
+}
+
+.login button {
+    width: 120px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 0px;
+}
+
+.login .login-text {
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.login>a img {
+    width: 25px;
+    float: left;
+}
+
+/*nút giỏ hàng */
+.shopping {
+    position: absolute;
+    color: black;
+    margin-left: 1400px;
+    margin-top: 28px;
+}
+
+.shopping:hover {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 27px;
+}
+
+.shopping button {
+    width: 100px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 0px;
+}
+
+.shopping .shopping-text {
+    margin-top: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+.shopping>a img {
+    margin-right: -10px;
+    width: 25px;
+    margin-right: 5px;
+    float: left;
+}
+
+/*menu*/
+.menu-pa ul {
+    position: absolute;
+    margin-top: 90px;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+    height: 5%;
+}
+
+
+.menu-pa>ul>li {
+    margin-right: 45px;
+    margin-left: 23px;
+    list-style: none;
+}
+
+.menu-pa>ul .li-1 {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-pa>ul .li-1:hover {
+    color: black;
+
+}
+
+.menu-con {
+    /* z-index: 9999; */
+    visibility: hidden;
+    padding: 600px 0 0 0;
+    /* margin-right: 50px; */
+    display: none;
+    line-height: 30px;
+    color: black;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    border-radius: 2px 2px 5px 5px;
+    top: -70px;
+    right: 40px;
+    width: 100px;
+    background-color: white;
+    /* line-height: 40px; */
+    color: black;
+}
+
+.menu-sp:hover .menu-con {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.menu-con .toy-film {
+    margin-bottom: 20px;
+}
+
+.menu-con li {
+    color: black;
+    list-style: none;
+}
+
+.menu-con li a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    color: red !important;
+}
+
+.trai {
+    margin-top: -550px;
+    margin-left: 150px;
+    float: left;
+}
+
+.giua1 {
+    margin-left: 370px;
+    margin-top: -450px;
+    position: absolute;
+}
+
+.giua {
+    margin-top: -100px;
+    float: left;
+    margin-right: 40px;
+}
+
+/* ----------------Banner */
+.banner {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.banner img {
+    border-radius: 50px;
+}
+#arrow-left{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -110px;
+}
+#arrow-right{
+    margin-top: 200px;
+    margin-left: 1250px;
+    position: absolute;
+}
+
+/* -------------------- */
+
+@keyframes bannerAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.banner {
+    margin-left: 150px;
+    margin-top: 50px;
+    animation: bannerAnimation 0.5s ease-in-out;
+}
+
+
+.under-banner1 {
+    margin-left: 35%;
+}
+
+.under-banner {
+    padding-top: 10px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    border: 2px solid red;
+    float: left;
+    margin-top: 50px;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+
+.under-banner:hover {
+    font-weight: bold;
+    background-color: red;
+    color: white;
+}
+
+.under-banner a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.under-banner a:hover {
+    color: white;
+}
+
+/* ----------DANH MỤC NỔI BẬT---------------- */
+.dmnb .dmnb-title {
+    font-size: 30px;
+    font-weight: 750;
+    margin-top: 150px;
+    /* margin-left: 650px; */
+    text-align: center;
+    color: rgb(40, 15, 180);
+}
+
+.dmnb img {
+    margin-left: 60px;
+    border-radius: 20px;
+}
+
+.dmnb .dcmn {
+    text-align: center;
+    padding-top: 50px;
+    margin-top: -10px;
+    margin-left: 60px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    background-color: whitesmoke;
+    width: 1400px;
+    height: 100px;
+    border-radius: 0 0 20px 20px;
+}
+
+.dmnb a {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    /* background-color: aqua;   */
+    position: absolute;
+    margin-left: 47%;
+    margin-top: -70px;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    color: black;
+}
+
+.dmnb a:hover {
+    background-color: red;
+    color: white;
+}
+
+/* ------------------------ */
+.dmnb1 {
+    margin-left: 60px;
+}
+
+.dmnb1 img {
+    border-radius: 20px;
+}
+
+.dmnb1 p {
+    text-align: center;
+    padding-top: 50px;
+    margin-top: -10px;
+    /* margin-left: 60px; */
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    background-color: whitesmoke;
+    width: 680px;
+    height: 100px;
+    border-radius: 0 0 20px 20px;
+}
+
+.dmnb1 a {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    /* background-color: aqua;   */
+    position: absolute;
+    margin-left: 19%;
+    margin-top: -70px;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    color: black;
+}
+
+.dmnb1 a:hover {
+    background-color: red;
+    color: white;
+}
+
+.dmnb1 .dcnb {
+    float: left;
+    margin-right: 40px;
+}
+
+/* -------DANH MỤC SẢN PHẨM THEO MÙA--------- */
+.spTheoMua-title {
+    font-size: 30px;
+    font-weight: 750;
+    margin-top: 50%;
+    margin-left: 5%;
+    text-align: center;
+    color: rgb(40, 15, 180);
+}
+
+.sp-theomua {
+    margin-left: 60px;
+}
+
+.sp-theomua1 {
+    float: left;
+    margin-right: 40px;
+}
+
+.sp-theomua1 img {
+    border-radius: 20px;
+}
+
+.sp-theomua1 p {
+    font-size: 22px;
+    margin-left: 20%;
+    font-weight: bold;
+}
+
+.sp-theomua1 a {
+    margin-left: 30%;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.sp-theomua1 a:hover {
+    background-color: red;
+    color: white;
+}
+
+/* ----------SẢN PHẨM BÁN CHẠY------- */
+.spbanChay-tile {
+    font-size: 30px;
+    font-weight: 750;
+    margin-top: 39%;
+    margin-left: 5%;
+    text-align: center;
+    color: rgb(40, 15, 180);
+}
+
+.spbanchay {
+    margin-left: 60px;
+}
+
+.spbanchay1 {
+    padding: 10px;
+    width: 300px;
+    height: 450px;
+    float: left;
+    border: 1px solid rgba(255, 0, 0, 0.54);
+    border-radius: 20px;
+    margin-right: 40px;
+}
+.spbanchay1 img{
+    border-radius: 10px;
+    width: 100%;
+}
+.spbanchay1:hover {
+    box-shadow: 0 0 10px gray;
+}
+
+.spbanchay1 a {
+    text-decoration: none;
+}
+
+.spbanchay1 .price {
+    color: red;
+}
+
+.spbanchay1 button {
+    
+    border-radius: 20px;
+    border: 1px solid red;
+    margin-left: 30%;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(211, 28, 28);
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.spbanchay1 button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ----------GÓC TÌM QUÀ TẶNG-------- */
+.gif {
+    margin-left: 60px;
+    margin-top: 35%;
+    position: absolute;
+}
+
+.gif .box {
+    float: left;
+    margin-right: 50px;
+}
+
+.gif .title {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(34, 34, 125);
+}
+
+.gif .text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(108, 102, 102);
+}
+
+.gif a {
+    position: absolute;
+    border: 2px solid red;
+    border-radius: 30px;
+    margin-top: 2%;
+    margin-left: 5%;
+    padding: 15px;
+    width: 110px;
+    height: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+.gif a:hover {
+    background-color: brown;
+    color: white;
+    border: none;
+}
+
+.box img {
+    border-radius: 30px;
+}
+
+/* --------GẠCH ĐỎ------- */
+.g-red {
+    background-color: rgb(217, 49, 49);
+    margin-top: 70%;
+    height: 50px;
+}
+
+.delivery1 {
+    margin-left: 110px;
+}
+
+.delivery {
+    float: left;
+    margin-right: 350px;
+    width: 350px;
+}
+
+.delivery img {
+    float: left;
+    margin-right: 30px;
+}
+
+.delivery .ship-text {
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.delivery1 .bow {
+    margin-left: 80%;
+    margin-top: -70px;
+}
+
+/* ---------------------FOOTER----------------------- */
+footer {
+    margin: 20px;
+}
+
+footer form label {
+    font-weight: bold;
+    font-size: 30px;
+    color: brown;
+}
+
+footer form .inp {
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    border: none;
+}
+footer form .inp[type="email"] {
+    padding-left: 30px;
+}
+footer form .inp:focus {
+    outline: none;
+}
+
+footer form .submit {
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: -85px;
+    border: 0px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.f-box {
+    float: left;
+    margin-right: 30px;
+}
+
+/* ------LIÊN HỆ----------- */
+.under-form ul .f-title {
+    color: red;
+    font-weight: bold;
+}
+
+.under-form ul li {
+    list-style: none;
+    line-height: 40px;
+    color: rgb(113, 108, 108);
+}
+
+.under-form ul .qr {
+    margin-left: 40px;
+}
+
+.under-form ul .gio-lv {
+    margin-left: -30px;
+}
+
+.under-form ul span {
+    color: black;
+    font-weight: bold !important;
+}
+
+/* ----------ĐIỀU KHOẢN VÀ CHÍNH SÁCH--------- */
+.f-box ul a {
+    color: rgb(113, 108, 108);
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.f-box ul a:hover {
+    color: red;
+}
+
+/* --------------- */
+footer .text-end {
+    text-align: center;
+    margin-left: -20px;
+    width: 1520px;
+    float: left;
+    background-color: rgb(184, 165, 165);
+}

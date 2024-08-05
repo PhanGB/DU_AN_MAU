@@ -1,3 +1,17 @@
+   <!-- -------------GẠCH ĐỎ---------------- -->
+   <div class="g-red">
+      <div class="delivery1">
+        <div class="delivery">
+          <img src="./public/upload/pictures/index/free-delivery.png" alt="" width="40px" />
+          <div class="ship-text">Miễm Phí Giao Hàng Đơn Từ 500k</div>
+        </div>
+        <div class="delivery">
+          <img src="./public/upload/pictures/index/fast-delivery.png" alt="" width="40px" />
+          <div class="ship-text">Giao Hàng Hoả Tốc 4 Tiếng</div>
+        </div>
+        <img src="./public/upload/pictures/index/Png_file_83_2.svg" alt="" class="bow" />
+      </div>
+    </div>
 <!-- ------------FOOTER----------->
 <footer>
       <form>
@@ -14,7 +28,7 @@
             <li>
               Zalo
               <img
-                src="pictures/footer/QR.jpg"
+                src="./public/upload/pictures/footer/QR.jpg"
                 alt=""
                 width="80px"
                 class="qr"
@@ -43,20 +57,20 @@
             <li class="f-title">
               THEO DÕI CHÚNG TÔI
               <a href="" style="margin-left: 10px"
-                ><img src="pictures/footer/facebook.png" alt="" width="30px"
+                ><img src="./public/upload/pictures/footer/facebook.png" alt="" width="30px"
               /></a>
               <a href=""
-                ><img src="pictures/footer/instagram.png" alt="" width="30px"
+                ><img src="./public/upload/pictures/footer/instagram.png" alt="" width="30px"
               /></a>
               <a href=""
-                ><img src="pictures/footer/youtube.png" alt="" width="30px"
+                ><img src="./public/upload/pictures/footer/youtube.png" alt="" width="30px"
               /></a>
             </li>
             <li class="f-title">WEBSITE CÙNG TẬP ĐOÀN</li>
             <li>
-              <a href=""><img src="pictures/footer/cleve.svg" alt="" /></a>              
-              <a href=""><img src="pictures/footer/hobivers.svg" alt=""></a>
-              <a href=""><img src="pictures/footer/MYKINGDOM_OUTLET_4275533d-d503-413b-b993-3f319186cf53.webp" alt="" width="130px"></a>
+              <a href=""><img src="./public/upload/pictures/footer/cleve.svg" alt="" /></a>              
+              <a href=""><img src="./public/upload/pictures/footer/hobivers.svg" alt=""></a>
+              <a href=""><img src="./public/upload/pictures/footer/MYKINGDOM_OUTLET_4275533d-d503-413b-b993-3f319186cf53.webp" alt="" width="130px"></a>
             </li>
           </ul>
         </div>
@@ -76,10 +90,10 @@
           <ul>
             <li class="f-title">HỆ THỐNG 232 CỬA HÀNG</li>
             <li>
-              <a href=""><img src="pictures/footer/image_22.svg" alt="" /></a>
+              <a href=""><img src="./public/upload/pictures/footer/image_22.svg" alt="" /></a>
             </li>
             <li>
-              <a href=""><img src="pictures/footer/image_24.svg" alt="" /></a>
+              <a href=""><img src="./public/upload/pictures/footer/image_24.svg" alt="" /></a>
             </li>
           </ul>
         </div>
@@ -96,5 +110,5 @@
       </div>
     </footer>
   </body>
-  <script src="../public/html/js/index.js"></script>
+  <script src="./public/js/index.js ?v= < php echo time(); >?"></script>
 </html>
